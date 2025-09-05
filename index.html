@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Phonk — Sonidos nocturnos y beats</title>
+    <meta name="description" content="Phonk: del lo-fi nocturno de Memphis a los beats virales. Historia, artistas, playlists y recursos para explorar el fenómeno." />
+    <!-- Open Graph básico -->
+    <meta property="og:title" content="Phonk — Sonidos nocturnos y beats" />
+    <meta property="og:description" content="Explora la historia, los productores y las playlists de phonk." />
+    <meta property="og:type" content="website" />
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="phonk-body">
+
+    <!-- Header / Navegación -->
+    <header class="site-header" role="banner" data-aos="fade-down" data-aos-delay="100">
+        <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="Volver a inicio">PHONK</a>
+
+        <nav class="main-nav" role="navigation" aria-label="Menú principal">
+            <ul>
+                <li><a href="index.html" aria-current="page"><i class="fas fa-home" ></i>Inicio</a></li> <!-- Aqui hay un error pero me gusto como quedo el inicio -->
+                <li><a href="pages/historia.html"><i class="fas fa-book-open"></i> Historia</a></li>
+                <li><a href="pages/artistas.html"><i class="fas fa-users"></i> Artistas</a></li>
+                <li><a href="pages/escucha.html"><i class="fas fa-headphones-alt"></i> Escucha</a></li>
+                <li><a href="pages/recursos.html"><i class="fas fa-folder-open"></i> Recursos</a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <!-- Hero principal -->
+    <main>
+        <section class="hero" id="hero">
+        <figure class="image-phonk" aria-labelledby="phonk-img-title" data-aos="fade-up" data-aos-delay="200">
+            <img
+                id="phonkPoster"
+                src="assets/Phonk-index.jpg"
+                width="236"
+                height="419"
+                loading="lazy"
+            />
+            </figure>
+        </section>
+
+        <!-- Sección resumen / Qué es Phonk -->
+        <section class="about" id="about" data-aos="fade-right" data-aos-delay="300">
+        <div class="container">
+            <h2>¿Qué es Phonk?</h2>
+            <p>
+                El sonido que hoy llamamos <strong>phonk</strong> nace por la remezcla y rescate de cintas de rap de Memphis de los años 90, combinado con técnicas
+                <em>chopped &amp; screwed</em> y una producción lo-fi. A partir de la década de 2010 el movimiento se reorganiza en internet, con productores que reinterpretan
+                la estética y dan paso a variantes como el <em>drift phonk</em>, más rápido y orientado a clips virales.
+            </p>
+        </div>
+        </section>
+
+        <!-- Sección destacada: artistas rápidos -->
+        <section class="featured" id="featured" data-aos="fade-left" data-aos-delay="300">
+        <div class="container">
+            <h2>Artistas y productores destacados</h2>
+            <ul class="artist-list" aria-label="Lista de artistas destacados">
+                <li data-aos="zoom-in" data-aos-delay="100"><strong>SpaceGhostPurrp</strong> — pionero de la revalorización del sonido Memphis.</li>
+                <li data-aos="zoom-in" data-aos-delay="200"><strong>DJ Smokey</strong> — productor influente en la escena underground.</li>
+                <li data-aos="zoom-in" data-aos-delay="300"><strong>NxxxxxS</strong> — mezcla estética vapor y phonk.</li>
+            </ul>
+            <p class="small-note">En <a href="pages/artistas.html">Artistas</a> encontrarás perfiles y enlaces a sus canales.</p>
+        </div>
+        </section>
+
+        <!-- Sección de Subgéneros -->
+        <section class="subgenres" id="subgenres" data-aos="fade-up" data-aos-delay="300">
+            <div class="container">
+                <h2>Subgéneros del Phonk</h2>
+                <p>Con el tiempo, el phonk ha evolucionado en diferentes estilos, cada uno con su propio sonido característico. Algunos de los subgéneros más populares incluyen:</p>
+                <ul class="subgenre-list">
+                    <li><strong>Drift Phonk:</strong> Caracterizado por sus ritmos rápidos y agresivos, a menudo asociado con videos de carreras de coches y drifting.</li>
+                    <li><strong>Phonk Wave:</strong> Una fusión de phonk con synthwave, creando una atmósfera más melódica y nostálgica.</li>
+                    <li><strong>Shadow Phonk:</strong> Un estilo más oscuro y atmosférico, con un enfoque en texturas y paisajes sonoros de baja fidelidad.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- CTA / Enlaces rápidos -->
+        <aside class="quick-links" id="quick-links" aria-labelledby="cta-title" data-aos="fade-up" data-aos-delay="400">
+        <div class="container">
+            <h3 id="cta-title">Explora más</h3>
+            <p>¿Quieres escuchar más? Visita la sección <a href="escucha.html">Escucha</a> para playlists y mixes seleccionados.</p>
+        </div>
+        </aside>
+    </main>
+
+    <!-- Scripts AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+        duration: 1000,
+        easing: 'ease-in-out',
+        once: true,
+        });
+    </script>
+</body>
+</html>
